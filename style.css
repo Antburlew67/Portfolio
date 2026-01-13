@@ -21,6 +21,7 @@
 .item:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
 a {
   text-decoration: none;
   transition: transform 0.3s;
@@ -28,4 +29,29 @@ a {
 
 a:hover {
   transform: scale(1.07);
+}
+
+body {
+  min-height: 150vh;
+  background-image: url("img/261F52F1-CA76-4AE1-ACE6-1A1D9C752130\ \(3\).jpeg");
+  background-size: cover;
+  background-position: center;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 25%;
+  border: 5px;
+}
+p{
+ position:absolute;
+ top: 8%;
+ left: 18%;
+ font-size: 45px;
+}
+h1{
+ position:absolute;
+ top: 8%;
+ left: 18%;
+ font-size: 20px;
 }
