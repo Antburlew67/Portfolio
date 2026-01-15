@@ -3,6 +3,7 @@
   display: flex;
   justify-content: flex-start;
   box-sizing: border-box;
+  
 }
 
 .item {
@@ -12,6 +13,8 @@
   display: inline-block;
   box-sizing: border-box;
   padding: 14px 20px;
+
+  color: rgb(1, 3, 114);
 }
 
 .item.title {
@@ -36,22 +39,51 @@ body {
   background-image: url("img/261F52F1-CA76-4AE1-ACE6-1A1D9C752130\ \(3\).jpeg");
   background-size: cover;
   background-position: center;
+
 }
+
 img {
   display: block;
   margin: auto;
   width: 25%;
   border: 5px;
 }
-p{
- position:absolute;
- top: 8%;
- left: 18%;
- font-size: 45px;
+
+p {
+  position: absolute;
+  top: 8%;
+  left: 18%;
+  font-size: 45px;
+  color: rgb(1, 3, 114);
 }
-h1{
- position:absolute;
- top: 8%;
- left: 18%;
- font-size: 20px;
+
+h1 {
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  font-size: 45px;
+  color: rgb(1, 3, 114);
+
+}
+h2 {
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  font-size: 45px;
+  color: rgb(1, 3, 114);
+
+}
+ol{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 30px;
+  color: rgb(1, 3, 114);
+
+}
+ 
+.img1{
+  position: absolute;
+  top: 20%;
+  left: 5%;
 }
