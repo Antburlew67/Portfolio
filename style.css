@@ -65,16 +65,16 @@ h1 {
   color: rgb(1, 3, 114);
 
 }
-h2 {
-  position: absolute;
+td {
+  /* position: absolute; */
   top: 8%;
   left: 10%;
   font-size: 45px;
   color: rgb(1, 3, 114);
 
 }
-ol{
-  position: absolute;
+ol {
+  /* position: absolute; */
   top: 20%;
   left: 10%;
   font-size: 30px;
@@ -83,7 +83,18 @@ ol{
 }
  
 .img1{
-  position: absolute;
+  position:sticky;
   top: 20%;
   left: 5%;
+}
+
+td {
+  text-align: center;
+}
+h2 {
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  font-size: 45px;
+  color: rgb(1, 3, 114);
 }
